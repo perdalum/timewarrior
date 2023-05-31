@@ -216,7 +216,7 @@ bool expandIntervalHint (
       sd += Datetime::daysInMonth (sy, sm);
     }
 
-    ed -= 7;
+    ed -= 6;
     if (ed < 1)
     {
       --em;
